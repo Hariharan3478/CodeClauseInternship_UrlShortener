@@ -1,0 +1,55 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 6rem;
+  min-height: 100vh;
+}
+
+.description {
+  display: flex;
+  flex-direction: column;
+  justify-content: inherit;
+  align-items: inherit;
+  font-size: 0.85rem;
+  max-width: var(--max-width);
+  width: 100%;
+  z-index: 2;
+  font-family: var(--font-mono);
+}
+
+
+.element, .input, .btn{
+  margin-top: 10vh;
+}
+
+.element{
+  font-size: 40px;
+}
+
+.input{
+  width: 40vw;
+  height: 50px;
+  text-align: center;
+  font-size: larger;
+}
+
+.btn{
+  height: 50px;
+  width: 15vw;
+}
+
+.surl{
+  display: flex;
+  flex-direction: row;
+  margin-top: 10vh;
+  padding: 10px 10px 10px 10px;
+  background-color: aliceblue;
+  color: black;
+  border-radius: 5px;
+}
+
+.surl>button{
+  margin-left: 10px;
+}
